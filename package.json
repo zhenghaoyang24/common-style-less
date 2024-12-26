@@ -1,12 +1,13 @@
 {
-  "name": "@zhy/common-style-less",
-  "version": "1.0.1",
+  "name": "zhy-common-style-less",
+  "version": "1.0.2",
   "description": "A commonly used less style library, saves development time, and has no other dependencies.",
   "main": "common-style-less.less",
   "keywords": [
     "less",
     "common-style"
   ],
+  "repository": "zhenghaoyang24/common-style-less",
   "license": "MIT",
   "author": "hoeyzheng"
 }
