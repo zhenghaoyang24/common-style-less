@@ -6,6 +6,8 @@ A commonly used less style library, saves development time, and has no other dep
 ```shell
 #npm
 npm i @hoeyzheng/common-style-less
+#npm
+npm install @hoeyzheng/common-style-less
 ```
 
 ## Usage
