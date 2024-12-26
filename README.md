@@ -4,10 +4,8 @@ A commonly used less style library, saves development time, and has no other dep
 
 ## install
 ```shell
-# pnpm
-pnpm add @pengzhanbo/utils
 #npm
-npm install @pengzhanbo/utils
+npm i @hoeyzheng/common-style-less
 ```
 
 ## Usage
