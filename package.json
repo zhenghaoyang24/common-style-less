@@ -1,0 +1,12 @@
+{
+  "name": "common-style-less",
+  "version": "1.0.0",
+  "description": "A commonly used less style library, saves development time, and has no other dependencies.",
+  "main": "common-style-less.less",
+  "keywords": [
+    "less",
+    "common-style"
+  ],
+  "license": "MIT",
+  "author": "hoeyzheng"
+}
