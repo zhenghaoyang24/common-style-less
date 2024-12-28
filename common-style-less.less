@@ -1,4 +1,13 @@
-//font-size
+/*text*/
+//ellipsis
+.text-ellipsis(@lines: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lines;
+  -webkit-box-orient: vertical;
+}
+//size
 .font-l {
   font-size: 16px;
 }
@@ -8,8 +17,7 @@
 .font-s {
   font-size: 12px;
 }
-
-//font-weight
+//weight
 .bold {
   font-weight: bold;
 }
@@ -31,9 +39,7 @@
 .text-r {
   text-align: right;
 }
-
-
-/*两边对齐弹性布局*/
+//两边对齐弹性布局
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -63,7 +69,7 @@
   justify-content: flex-end;
   align-items: center;
 }
-.justifyContent(@style:flex-start){
+.flex-content(@style:flex-start){
   display: flex;
   justify-content: @style;
   align-items: center;
@@ -95,6 +101,10 @@
       background-color: @thumbBgHoverColor;
     }
   }
+}
+//透明度颜色设置
+.color-opacity(@color: #000, @opacity: 0.5) {
+  background-color: rgba(red(@color), green(@color), blue(@color), @opacity);
 }
 
 
